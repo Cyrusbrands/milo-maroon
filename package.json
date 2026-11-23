@@ -1,0 +1,23 @@
+{
+  "name": "milo-maroon",
+  "version": "0.15.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node tools/dev-server.mjs",
+    "assets": "node tools/fetch-assets.mjs",
+    "check": "node tools/check-source.mjs",
+    "test": "node qa/smoke-check.mjs",
+    "test:hands": "node qa/hand-visibility-check.mjs",
+    "test:ships": "node qa/seafaring-check.mjs",
+    "test:world": "node qa/world-upgrade-check.mjs",
+    "test:audio": "node qa/audio-integration-check.mjs",
+    "test:ecology": "node qa/ecology-check.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.58.2"
+  }
+}

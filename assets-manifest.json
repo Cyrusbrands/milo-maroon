@@ -1,0 +1,126 @@
+{
+  "version": "0.15.1",
+  "url": "https://github.com/Cyrusbrands/milo-maroon/releases/download/v0.15.1/Milo-Maroon-0.15.1-Models.zip",
+  "files": [
+    {
+      "path": "app/models/Crab-Rigged.glb",
+      "bytes": 11218540,
+      "sha256": "afdeda2cf1fbcf5c1a7009889b005d163967156703bfb1ac0f605bd547592c2b"
+    },
+    {
+      "path": "app/models/Dolphin-Rigged.glb",
+      "bytes": 6458004,
+      "sha256": "485345c98fc49a4eee0bc048ec1743605f957428514a57690a09fae1bd2c4c64"
+    },
+    {
+      "path": "app/models/Milo-Hero.glb",
+      "bytes": 41680520,
+      "sha256": "402ddeed5c7d4f2f3b6e0b83bcbe053e9831d5f553c7c9664a7ba9d13c388634"
+    },
+    {
+      "path": "app/models/Palm-Parts.glb",
+      "bytes": 8000892,
+      "sha256": "11faa3d6d53b5e3e5cf4315d75a31d9076ce1a4a90b892c26011d3e016675ccc"
+    },
+    {
+      "path": "app/models/Seabird-Rigged.glb",
+      "bytes": 12823692,
+      "sha256": "c9b78d1eeedd59e857bcab7b7a66a6dd1e6357598f644c06bb9a89ca6d014781"
+    },
+    {
+      "path": "app/models/Shark-Rigged.glb",
+      "bytes": 7799224,
+      "sha256": "fa6bc53a2e3a41f5356d01a08264b22711b71c99a3f771c757fbebc43c35bd02"
+    },
+    {
+      "path": "app/models/Tent.glb",
+      "bytes": 10672796,
+      "sha256": "d19aad2640255fc18b98ee172307b70de255e223cf3e1ac1b88e98c262723215"
+    },
+    {
+      "path": "app/models/Turtle-Rigged.glb",
+      "bytes": 12226128,
+      "sha256": "470470ba6af7cb0abfaa343c3587a08390c880e67b493145d4446649c8b08b6d"
+    },
+    {
+      "path": "app/models/V22-01.glb",
+      "bytes": 14176996,
+      "sha256": "37cb90a949ec39dc4e080d84d62fe96f7c7b6feb22598be4b0b7fb051f221714"
+    },
+    {
+      "path": "app/models/V22-02.glb",
+      "bytes": 11501456,
+      "sha256": "590506fa993bcba4856f38227f8d507f5886cccfd98eec8ff6badbf8ab948347"
+    },
+    {
+      "path": "app/models/V22-03.glb",
+      "bytes": 11544816,
+      "sha256": "39ce1ab9669e1148d1ba3b1c05646c2fcb0482d4dbfb7d486e84a4ce004530de"
+    },
+    {
+      "path": "app/models/V22-04.glb",
+      "bytes": 10575932,
+      "sha256": "a22e81d7a8d91956e6c263517b2bb9382ddb7f79b12e54ea8351eba33c247539"
+    },
+    {
+      "path": "app/models/V22-05.glb",
+      "bytes": 9152436,
+      "sha256": "4d771a37f966cac6d8f4fd1409776492b56b484d0579f4dfe95329be0ed71e96"
+    },
+    {
+      "path": "app/models/V22-06.glb",
+      "bytes": 11064772,
+      "sha256": "fff83da03119e60d0197b68a91eba68bec2bd1afa6c0512e7e99d8dfa96e53de"
+    },
+    {
+      "path": "app/models/V22-07.glb",
+      "bytes": 13301856,
+      "sha256": "e54ae3c6e08f15317c8ad7221aa5cfe80cbc5e4016c2ad1b215f8dbee5229be0"
+    },
+    {
+      "path": "app/models/V22-08.glb",
+      "bytes": 9769264,
+      "sha256": "fa8dc632f714fc116613525e87a0153a48d2866302250fdba9fcc42a273e0ccc"
+    },
+    {
+      "path": "app/models/V22-09.glb",
+      "bytes": 11845000,
+      "sha256": "e568232fe7b17ea416d5cf3a163514aa5493fbb9808167de7ee8dd1a6faae610"
+    },
+    {
+      "path": "app/models/V22-10.glb",
+      "bytes": 9043816,
+      "sha256": "0265bc6ed6201a442aa7a5e7eaa068aaf8b1f9287657ddc42ca82a7e3ee9f6bf"
+    },
+    {
+      "path": "app/models/V22-11.glb",
+      "bytes": 5493440,
+      "sha256": "1a63b16e22eab765d53603326577c5a0dc4fec83034541baacde6d37fae10ba5"
+    },
+    {
+      "path": "app/models/V22-12.glb",
+      "bytes": 21399512,
+      "sha256": "a7d3f6bfbf21650a16ad1753c6b2233799d5c92b222f7b6403c079ca9b69981d"
+    },
+    {
+      "path": "app/models/V22-13.glb",
+      "bytes": 9850096,
+      "sha256": "3b55593ad126a3cd1e0a0b950aca305da47cdb222c2341d9f527bb5f4e064a33"
+    },
+    {
+      "path": "app/models/V22-14.glb",
+      "bytes": 12440052,
+      "sha256": "d7abf7d76e9db54f24e9776a352ca1238277ec83fdc809f503714b6f592941c9"
+    },
+    {
+      "path": "app/models/V22-15.glb",
+      "bytes": 10607196,
+      "sha256": "5fe9530421d8ae18ede284f64ba8ad270d2731d68103ecb1d681b1c64d66dd4f"
+    },
+    {
+      "path": "app/models/V22-16.glb",
+      "bytes": 12457344,
+      "sha256": "866a8042dc33c6bf8ec3c0b928a90f4881eb1aa9e3f8054478a4c58ec70ae7ae"
+    }
+  ]
+}

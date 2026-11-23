@@ -1,0 +1,17 @@
+node_modules/
+.build-home/
+native/bin/
+native/obj/
+release*/
+artifacts/
+app/models/*.glb
+qa/*results.json
+qa/*.png
+qa/*.mp4
+*.zip
+*.sha256.txt
+.env
+.env.*
+*.user
+*.suo
+.DS_Store
