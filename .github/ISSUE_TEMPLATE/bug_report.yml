@@ -1,0 +1,21 @@
+name: Bug report
+description: Report a reproducible island problem
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Application version
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: What happened and how can we reproduce it?
+      description: Include activity, settings and an application screenshot or clip if possible. Avoid unrelated desktop/private data.
+    validations:
+      required: true
+  - type: textarea
+    id: system
+    attributes:
+      label: Windows version, GPU and graphics quality

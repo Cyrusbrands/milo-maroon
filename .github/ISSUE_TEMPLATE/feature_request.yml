@@ -1,0 +1,11 @@
+name: Island idea
+description: Suggest a moment or focused improvement
+title: "[Idea] "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+      description: Explain the behavior, why it belongs here, and how often it should happen. Quiet moments matter too.
+    validations:
+      required: true
