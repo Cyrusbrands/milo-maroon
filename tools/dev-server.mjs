@@ -1,0 +1,4 @@
+import {createServer} from 'node:http';import fs from 'node:fs/promises';import path from 'node:path';
+const app=path.resolve(import.meta.dirname,'../app'),port=Number(process.env.PORT||8080);
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.ogg':'audio/ogg','.png':'image/png','.gif':'image/gif','.glb':'model/gltf-binary'};
+createServer(async(req,res)=>{try{const name=decodeURIComponent(new URL(req.url,'http://localhost').pathname),file=path.resolve(app,'.'+(name==='/'?'/index.html':name));if(!file.startsWith(app+path.sep))throw Error();res.setHeader('Content-Type',types[path.extname(file)]||'application/octet-stream');res.setHeader('Cache-Control','no-cache');res.end(await fs.readFile(file));}catch{res.writeHead(404);res.end('Not found');}}).listen(port,'127.0.0.1',()=>console.log(`Milo Maroon: http://localhost:${port} (Ctrl+C to stop)`));
