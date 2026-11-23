@@ -1,0 +1,27 @@
+// These are gameplay connections, not just a list of downloaded model files.
+export const ASSET_ROLES=[
+ ['hero','Milo','walking, fishing, swimming, building and quiet time',['fishing','swim','repair','quiet']],
+ ['claw','Captain Claw','beach inspection, gifts, chess and familiar hiding places',['crab','crabGift','chess','quiet']],
+ ['dolphin','Dolphin family','varied-size leaps, ball play and mermaid company',['dolphin','mermaid']],
+ ['palm','Coconut palms','wind, falling coconuts, shelter and rain drips',['coconut','storm','rainDance']],
+ ['turtle','Pebble and turtles','feeding, hatchlings, reef swimming and following a trusted Milo',['feedTurtle','turtles','snorkel','quiet']],
+ ['shark','Sharks','offshore patrol, snorkel encounters and surf company',['snorkel','surfing','swim']],
+ ['seabird','Seabirds','flights, food theft, trading and campsite visits',['birdTrade','reclaim','telescope']],
+ ['tent','Canvas tent','shelter, collecting tools, rain and camp repairs',['laptop','painting','repair','storm']],
+ ['01','Cruise ship','missed rescue, distant transit and beacon party',['sleepcruise','beaconBoat','cruise']],
+ ['02','Pirate ship','pirate story, horizon patrol and unexpected visitors',['pirates','pirate']],
+ ['03','Sailboat','rescue attempt and a quiet sail past',['ship','sailboat']],
+ ['04','Whale','story visit, a rare offshore rest and reef preview',['whale','rare-whale']],
+ ['05','Blue reef fish','schooling, fishing catches, tide pools and mermaid followers',['fishing','dive','tide-pools','mermaid']],
+ ['06','Yellow reef fish','reef schools, catches, tide pools and curious followers',['fishing','snorkel','tide-pools','mermaid']],
+ ['07','Parrot','shoulder companion, gardening observer and camp perch',['parrot','garden','quiet']],
+ ['08','Hammock','rest, sleeping through a cruise and the unreliable knot',['rest','sleepcruise','hammockFail']],
+ ['09','Treasure chests','digging discoveries, camp storage and crab inspection',['treasure','metalDetector','quiet']],
+ ['10','Workbench','repairs, persistent inventions and weather damage',['repair','beaconBuild','driftwood']],
+ ['11','Cooking pot','cooking, steam and a cooling meal beside the fire',['cook','quiet']],
+ ['12','Raft','visible construction stages, launch and failed escape',['raft','driftwood']],
+ ['13','Fishing rod','casting, catches and waiting for a bite',['fishing']],
+ ['14','Aircraft','closer flyby, search sweep and a missed sleeping rescue',['plane','search-plane','sleepcruise']],
+ ['15','UFO','rare encounter, lights and the rescue misunderstanding',['ufo']],
+ ['16','Mermaid','tail-driven gliding, surface greetings, dolphin company and a diving departure',['mermaid','dolphin']]
+].map(([id,name,role,activities])=>({id,name,role,activities}));

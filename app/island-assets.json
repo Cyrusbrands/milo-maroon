@@ -1,0 +1,693 @@
+{
+  "01": {
+    "id": "01",
+    "name": "Cruise Ship",
+    "file": "./models/V22-01.glb",
+    "acceptance": {
+      "triangles": 20542,
+      "nativeDimensions": [
+        0.9775182008743286,
+        0.3615478277206421,
+        0.2582484781742096
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": []
+  },
+  "02": {
+    "id": "02",
+    "name": "Pirate Boat",
+    "file": "./models/V22-02.glb",
+    "acceptance": {
+      "triangles": 19797,
+      "nativeDimensions": [
+        0.9787365198135376,
+        0.7718802690505981,
+        0.3658291697502136
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": []
+  },
+  "03": {
+    "id": "03",
+    "name": "Rescue Sailboat",
+    "file": "./models/V22-03.glb",
+    "acceptance": {
+      "triangles": 18955,
+      "nativeDimensions": [
+        0.9784014225006104,
+        0.9745721220970154,
+        0.41548556089401245
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": []
+  },
+  "04": {
+    "id": "04",
+    "name": "Whale",
+    "file": "./models/V22-04.glb",
+    "acceptance": {
+      "triangles": 19061,
+      "nativeDimensions": [
+        0.9775790644550872,
+        0.3615704067485782,
+        0.8742735076906969
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": [
+      {
+        "name": "bone_2",
+        "amplitude": 0.07,
+        "phase": 0,
+        "localAxis": [
+          0.9999999999999942,
+          -8.363731098647355e-08,
+          -6.791039614616795e-08
+        ]
+      },
+      {
+        "name": "bone_3",
+        "amplitude": 0.11,
+        "phase": 0.5,
+        "localAxis": [
+          0.9999999999999903,
+          -8.618873024619897e-08,
+          1.1041221825007464e-07
+        ]
+      },
+      {
+        "name": "tripoTail_0",
+        "amplitude": 0.15,
+        "phase": 1,
+        "localAxis": [
+          0.3656481917758209,
+          -0.2925840838520292,
+          -0.8835700049953832
+        ]
+      },
+      {
+        "name": "bone_12",
+        "amplitude": 0.12,
+        "phase": 0.3,
+        "localAxis": [
+          -0.9981684895788553,
+          -0.05445340265392403,
+          -0.02635324176029093
+        ]
+      },
+      {
+        "name": "bone_13",
+        "amplitude": 0.045,
+        "phase": 0.6,
+        "localAxis": [
+          -0.9989685348548689,
+          -0.03673586135630124,
+          -0.02668975197201078
+        ]
+      },
+      {
+        "name": "bone_16",
+        "amplitude": -0.12,
+        "phase": 0.3,
+        "localAxis": [
+          0.9981684888094606,
+          -0.054453234220508184,
+          -0.026353618931071795
+        ]
+      },
+      {
+        "name": "bone_17",
+        "amplitude": -0.045,
+        "phase": 0.6,
+        "localAxis": [
+          0.999056159834216,
+          -0.0356687910891263,
+          -0.024789651864232612
+        ]
+      }
+    ]
+  },
+  "05": {
+    "id": "05",
+    "name": "Blue Reef Fish",
+    "file": "./models/V22-05.glb",
+    "acceptance": {
+      "triangles": 18861,
+      "nativeDimensions": [
+        0.9771220837776284,
+        0.5908627140681151,
+        0.5985112475347673
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": [
+      {
+        "name": "tripoSpine_1",
+        "amplitude": 0.035,
+        "phase": 0,
+        "localAxis": [
+          -0.9789707718696097,
+          0.19705356289160836,
+          -0.052783720755017555
+        ]
+      },
+      {
+        "name": "tripoSpine_2",
+        "amplitude": 0.07,
+        "phase": 0.35,
+        "localAxis": [
+          -0.9886692836154363,
+          -0.14348174758893312,
+          0.04411389513709059
+        ]
+      },
+      {
+        "name": "tripoSpine_3",
+        "amplitude": 0.12,
+        "phase": 0.7,
+        "localAxis": [
+          -0.9993380342935575,
+          -0.03444195641935846,
+          0.011715154813143391
+        ]
+      },
+      {
+        "name": "tripoTail_0",
+        "amplitude": 0.16,
+        "phase": 1,
+        "localAxis": [
+          -0.9993380342935575,
+          -0.03444195641935846,
+          0.011715154813143391
+        ]
+      },
+      {
+        "name": "bone_4",
+        "amplitude": 0.12,
+        "phase": 0.2,
+        "localAxis": [
+          -2.725187918916339e-07,
+          -0.5084809313411949,
+          0.8610732503465178
+        ]
+      },
+      {
+        "name": "bone_16",
+        "amplitude": -0.12,
+        "phase": 0.2,
+        "localAxis": [
+          1.7553830711938595e-07,
+          -6.879335961929313e-07,
+          0.999999999999748
+        ]
+      }
+    ]
+  },
+  "06": {
+    "id": "06",
+    "name": "Yellow Reef Fish",
+    "file": "./models/V22-06.glb",
+    "acceptance": {
+      "triangles": 19236,
+      "nativeDimensions": [
+        0.9775790901617987,
+        0.6867924287269558,
+        0.5413989424767425
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": [
+      {
+        "name": "tripoSpine_1",
+        "amplitude": 0.025,
+        "phase": 0,
+        "localAxis": [
+          -0.7233168382759837,
+          -0.6636238692755163,
+          -0.19083005946188644
+        ]
+      },
+      {
+        "name": "tripoSpine_2",
+        "amplitude": 0.04,
+        "phase": 0.3,
+        "localAxis": [
+          -0.9755985138649487,
+          -0.20411530980958423,
+          -0.0808979607026115
+        ]
+      },
+      {
+        "name": "tripoSpine_3",
+        "amplitude": 0.06,
+        "phase": 0.6,
+        "localAxis": [
+          -0.997041213007649,
+          -0.07124646150694526,
+          -0.02885760362496026
+        ]
+      },
+      {
+        "name": "tripoSpine_4",
+        "amplitude": 0.08,
+        "phase": 0.9,
+        "localAxis": [
+          -0.9883197415922488,
+          -0.14142130474283052,
+          -0.05678118476983359
+        ]
+      },
+      {
+        "name": "tripoSpine_5",
+        "amplitude": 0.1,
+        "phase": 1.2,
+        "localAxis": [
+          -0.9883197415922488,
+          -0.14142130474283052,
+          -0.05678118476983359
+        ]
+      },
+      {
+        "name": "Pectoral_L",
+        "amplitude": 0.16,
+        "phase": 0.2,
+        "localAxis": [
+          6.587707989013516e-16,
+          1,
+          5.945597557252328e-16
+        ]
+      },
+      {
+        "name": "Pectoral_R",
+        "amplitude": -0.16,
+        "phase": 0.2,
+        "localAxis": [
+          6.587707989013516e-16,
+          1,
+          5.945597557252328e-16
+        ]
+      }
+    ]
+  },
+  "07": {
+    "id": "07",
+    "name": "Parrot",
+    "file": "./models/V22-07.glb",
+    "acceptance": {
+      "triangles": 20002,
+      "nativeDimensions": [
+        0.9787366783847311,
+        0.656960155331697,
+        0.4654266812900809
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": [
+      {
+        "name": "tripoHead_0",
+        "amplitude": 0.07,
+        "phase": 0,
+        "localAxis": [
+          -0.41905710210648073,
+          0.9079598808174923,
+          6.140827986264242e-08
+        ]
+      },
+      {
+        "name": "tripoHead_1",
+        "amplitude": 0.04,
+        "phase": 0.4,
+        "localAxis": [
+          -4.1188115717555397e-08,
+          -2.693653840075004e-07,
+          0.9999999999999629
+        ]
+      },
+      {
+        "name": "bone_29",
+        "amplitude": 0.07,
+        "phase": 0.3,
+        "localAxis": [
+          0.8221921650425262,
+          0.5666657603983094,
+          -0.05375834572314666
+        ]
+      },
+      {
+        "name": "bone_30",
+        "amplitude": 0.06,
+        "phase": 0.3,
+        "localAxis": [
+          0.3823515295773923,
+          -0.9166024417225952,
+          0.1168215376461241
+        ]
+      },
+      {
+        "name": "bone_34",
+        "amplitude": -0.06,
+        "phase": 0.3,
+        "localAxis": [
+          -0.4347491670682275,
+          -0.8853156060071008,
+          0.1649528402112623
+        ]
+      },
+      {
+        "name": "tripoSpine_1",
+        "amplitude": -0.07,
+        "phase": 0.3,
+        "localAxis": [
+          -0.9701423870654475,
+          -0.19160050733358233,
+          0.1487043859759
+        ]
+      },
+      {
+        "name": "bone_39",
+        "amplitude": 0.035,
+        "phase": 0.7,
+        "localAxis": [
+          2.384185725512467e-07,
+          -0.4020635554308396,
+          0.9156117612799954
+        ]
+      },
+      {
+        "name": "tripoTail_0",
+        "amplitude": 0.035,
+        "phase": 1,
+        "localAxis": [
+          1.7742845737729035e-07,
+          -3.166779433508497e-08,
+          0.9999999999999838
+        ]
+      },
+      {
+        "name": "bone_2",
+        "amplitude": 0.025,
+        "phase": 0.4,
+        "localAxis": [
+          0.9805808043696971,
+          0.10860749887983012,
+          0.1632963480569787
+        ]
+      },
+      {
+        "name": "tripo0_Left_Limb_1",
+        "amplitude": -0.025,
+        "phase": 0.4,
+        "localAxis": [
+          0.07023544591054004,
+          -0.10860646552779815,
+          -0.9916005333718346
+        ]
+      }
+    ]
+  },
+  "08": {
+    "id": "08",
+    "name": "Hammock",
+    "file": "./models/V22-08.glb",
+    "acceptance": {
+      "triangles": 18291,
+      "nativeDimensions": [
+        0.97770094871521,
+        0.5070269107818604,
+        0.4687606394290924
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": []
+  },
+  "09": {
+    "id": "09",
+    "name": "Treasure Chest",
+    "file": "./models/V22-09.glb",
+    "acceptance": {
+      "triangles": 19164,
+      "nativeDimensions": [
+        0.9774268865585327,
+        0.7861496322154999,
+        0.7747726650238037
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": []
+  },
+  "10": {
+    "id": "10",
+    "name": "Workbench",
+    "file": "./models/V22-10.glb",
+    "acceptance": {
+      "triangles": 18840,
+      "nativeDimensions": [
+        0.9769090414047241,
+        0.47602808475494385,
+        0.5410279631614685
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": []
+  },
+  "11": {
+    "id": "11",
+    "name": "Cooking Pot",
+    "file": "./models/V22-11.glb",
+    "acceptance": {
+      "triangles": 18179,
+      "nativeDimensions": [
+        0.9778836965560913,
+        0.8783730864524841,
+        0.7903444170951843
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": []
+  },
+  "12": {
+    "id": "12",
+    "name": "Castaway Raft",
+    "file": "./models/V22-12.glb",
+    "acceptance": {
+      "triangles": 45880,
+      "nativeDimensions": [
+        0.7679007947444916,
+        0.908355712890625,
+        0.9771729111671448
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": []
+  },
+  "13": {
+    "id": "13",
+    "name": "Fishing Rod",
+    "file": "./models/V22-13.glb",
+    "acceptance": {
+      "triangles": 18938,
+      "nativeDimensions": [
+        0.24292956292629242,
+        0.3079659640789032,
+        0.9774572253227234
+      ],
+      "finiteGeometry": true,
+      "validIndices": true,
+      "gripCandidate": [
+        -0.07460040599107742,
+        0.1597215011715889,
+        0.3672637641429901
+      ],
+      "tipLineCandidate": [
+        0.09755437448620796,
+        0.2821427285671234,
+        -0.4772516191005707
+      ]
+    },
+    "configs": []
+  },
+  "14": {
+    "id": "14",
+    "name": "Passing Aircraft",
+    "file": "./models/V22-14.glb",
+    "acceptance": {
+      "triangles": 17812,
+      "nativeDimensions": [
+        0.9777923226356506,
+        0.4190538227558136,
+        0.8706369986951351
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": []
+  },
+  "15": {
+    "id": "15",
+    "name": "UFO",
+    "file": "./models/V22-15.glb",
+    "acceptance": {
+      "triangles": 18431,
+      "nativeDimensions": [
+        0.9781273603439331,
+        0.4574803113937378,
+        0.9781273603439331
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": []
+  },
+  "16": {
+    "id": "16",
+    "name": "Mermaid",
+    "file": "./models/V22-16.glb",
+    "acceptance": {
+      "triangles": 19903,
+      "nativeDimensions": [
+        0.3667169122246696,
+        0.9811121484225904,
+        0.26303801825245066
+      ],
+      "finiteGeometry": true,
+      "validIndices": true
+    },
+    "configs": [
+      {
+        "name": "Tail_01",
+        "amplitude": 0.05,
+        "phase": 0,
+        "axis": [
+          0.9999999999999999,
+          1.5248562600781543e-08,
+          5.1127989045232755e-09
+        ]
+      },
+      {
+        "name": "Tail_02",
+        "amplitude": 0.075,
+        "phase": 0.48,
+        "axis": [
+          0.9999999999999999,
+          1.5248562600781543e-08,
+          5.1127989045232755e-09
+        ]
+      },
+      {
+        "name": "Tail_03",
+        "amplitude": 0.1,
+        "phase": 0.96,
+        "axis": [
+          0.9999999999999999,
+          1.5248562600781543e-08,
+          5.1127989045232755e-09
+        ]
+      },
+      {
+        "name": "Tail_04",
+        "amplitude": 0.13,
+        "phase": 1.44,
+        "axis": [
+          0.9999999999999999,
+          1.5248562600781543e-08,
+          5.1127989045232755e-09
+        ]
+      },
+      {
+        "name": "Tail_05",
+        "amplitude": 0.16,
+        "phase": 1.92,
+        "axis": [
+          0.9999999999999999,
+          1.5248562600781543e-08,
+          5.1127989045232755e-09
+        ]
+      },
+      {
+        "name": "Tail_06",
+        "amplitude": 0.18,
+        "phase": 2.4,
+        "axis": [
+          0.9999999999999999,
+          1.5248562600781543e-08,
+          5.1127989045232755e-09
+        ]
+      },
+      {
+        "name": "Tail_Fluke",
+        "amplitude": 0.14,
+        "phase": 2.88,
+        "axis": [
+          0.9999999999999999,
+          1.5248562600781543e-08,
+          5.1127989045232755e-09
+        ]
+      },
+      {
+        "name": "Head",
+        "amplitude": 0.055,
+        "phase": 0.4,
+        "axis": [
+          -0.5147250932195259,
+          0.7067996915648125,
+          0.4852754624067
+        ]
+      },
+      {
+        "name": "L_Upperarm",
+        "amplitude": 0.045,
+        "phase": 0,
+        "axis": [
+          0.09923115245024099,
+          0.3638473302134598,
+          0.9261578152129013
+        ]
+      },
+      {
+        "name": "R_Upperarm",
+        "amplitude": -0.045,
+        "phase": 0,
+        "axis": [
+          0.09923139194808837,
+          -0.36384766363927484,
+          0.9261576585637491
+        ]
+      },
+      {
+        "name": "L_Forearm",
+        "amplitude": 0.07,
+        "phase": 0.6,
+        "axis": [
+          -0.12448648782112923,
+          0.4315905701160658,
+          0.8934386907543511
+        ]
+      },
+      {
+        "name": "R_Forearm",
+        "amplitude": -0.07,
+        "phase": 0.6,
+        "axis": [
+          -0.12750203512555255,
+          -0.4503714052568317,
+          0.8836904595874219
+        ]
+      }
+    ]
+  }
+}

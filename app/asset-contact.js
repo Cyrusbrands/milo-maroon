@@ -1,0 +1,4 @@
+import * as T from './vendor/three.module.js';
+// Keep directional surface extrema in a small 3D grid. Posing can turn a side
+// surface into the lowest point, so sampling only each column's bind-pose bottom misses toes.
+export function surfaceSamples(mesh){const cells=new Map(),v=new T.Vector3();for(let j=0;j<mesh.geometry.attributes.position.count;j++){mesh.getVertexPosition(j,v);const key=Math.floor(v.x*14)+':'+Math.floor(v.y*14)+':'+Math.floor(v.z*14);let c=cells.get(key);if(!c){c={min:v.clone(),max:v.clone(),ids:[j,j,j,j,j,j]};cells.set(key,c);}for(let axis=0;axis<3;axis++){const x=v.getComponent(axis);if(x<c.min.getComponent(axis)){c.min.setComponent(axis,x);c.ids[axis*2]=j;}if(x>c.max.getComponent(axis)){c.max.setComponent(axis,x);c.ids[axis*2+1]=j;}}}return [...new Set([...cells.values()].flatMap(c=>c.ids))];}
